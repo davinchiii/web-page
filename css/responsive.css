@@ -1,0 +1,197 @@
+/*Large Tablet screens*/
+@media(max-width: 992px){
+	/*Blog*/
+	.site-main-wrapper .blog .blog-wrapper > div{
+		margin: 0px;
+	}
+	.site-main-wrapper .blog .blog-wrapper{
+		flex-direction: column;
+	}
+}
+@media(max-width: 768px){
+	.very-top-header{
+		flex-direction: column;
+	}
+	.very-top-header .navigation{
+		margin-top: 5px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-start;
+		padding: 10px 20px;
+		align-self: center;
+		text-align: center;
+	}
+	.very-top-header .navigation a{
+
+	}
+	.master-footer .foot-grid{
+		flex-direction: column;
+		align-items: center;
+	}
+	.blog .blog-main .ind-post-wrap {
+		flex-direction: column;
+	}
+
+	.site-main-wrapper .blog .blog-main .thumbnail img{
+		max-width: 100%;
+	}
+}
+
+/*Mobile Smartphones*/
+@media(max-width: 500px){
+
+	/*Global variable*/
+	.intro-header{
+		height: 150px;
+	}
+	/*Breadcrumb*/
+	.crumb-wrapper .breadcrumb .crum{
+		padding:0px 0px;
+	}
+	/*Reviews*/
+	.ui.container .revi-tab .rev-grid .rev-prof img{
+		max-width: 200px;
+		max-height: 200px;
+	}
+	.ui.container .revi-tab .rev-grid .rev-rev h2{
+		font-size: 27px;
+		margin: 3px 0px;
+	}
+	/*News*/
+	.ui.container .blog-update-wrapper h1{
+		font-size: 35px;
+		padding: 10px;
+		max-width: 420px;
+		margin: 0px auto;
+	}
+	/*Partners*/
+	.ui.container .ptn-wrapper  h1{
+		background: #FFFFFF;
+		padding: 10px;
+		max-width: 350px;
+		font-size: 35px;
+		margin-bottom: 80px;
+	}
+	.ui.container .ptn-wrapper .ptn-grid{
+		flex-direction: column;
+	}
+	.ui.container .ptn-wrapper .ptn-grid > div{
+		align-self: center;
+		margin-bottom: 25px;
+	}
+	/*Footer*/
+	.master-footer .foot-grid .contact{
+		align-self: center;
+		text-align: center;
+	}
+	.to-top a{
+		width: 35px;
+		height: 35px;
+		font-size: 14px;
+		padding: ;
+	}
+	/*Footer*/
+	.master-footer .foot-grid .contact{
+		align-self: center;
+		text-align: left;
+	}
+	/*Project reader*/
+	.project-main-wrapper .ui.container{
+		margin: 50px 0px;
+		padding: 0px 10px
+	}
+	.project-main-wrapper .ui.container p{
+		max-width: 1000px;
+		font-size: 16px;
+	}
+	/*Blog*/
+	.site-main-wrapper .blog .blog-main{
+		padding: 30px 0px;
+	}
+	.site-main-wrapper .blog .intro-tag{
+		margin: 50px 0px -35px 0px;
+	}
+	.site-main-wrapper .blog .blog-main .ind-post-wrap {
+		flex-direction: column;
+	}
+	.site-main-wrapper .blog .blog-main .ind-post-wrap .thumbnail{
+		margin:0px auto;
+	}
+	.site-main-wrapper .blog .blog-main .ind-post-wrap .excpt{
+		padding: 0px 0px;
+	}
+	.site-main-wrapper .blog .blog-main .ind-post-wrap img{
+		max-width: 100%;
+	}
+
+}
+
+@media(max-width: 350px){
+	/*Header*/
+	.very-top-header .logo img{
+		max-width: 80px;
+		position: relative;
+		left: -15px;
+	}
+	.very-top-header #mob-nav-knob{
+		position: relative;
+		right: -10px;
+		top:5px;
+	}
+	.navigation{
+		top:85px;
+	}
+
+	/*Landing*/
+	.master-container .landing .landing-text h1{
+		font-size: 35px;
+	}
+	.master-container .landing .landing-text h3{
+		font-size: 18px;
+	}
+	/*Intro text*/
+	.ui.container .cnt-tab h2{
+		font-size: 20px;
+		padding:15px;
+		max-width: 600px;
+		margin: 50px auto;
+	}
+	/*Projects*/
+	.nxt-tab-proj .intro h1{
+		max-width: 200px;
+		width: 100%;
+		font-size: 20px;
+		background: #FFFFFF;
+		padding: 10px;
+		border-radius: 50px;
+		text-align: center;
+	}
+	.nxt-tab-proj{
+		padding-bottom: 50px;
+	}
+	.nxt-tab-proj  .more-proj{
+		width: 70px;
+		height: 70px;
+		font-size: 11px;
+		bottom: -35px;
+	}
+	/*Reviews*/
+	.ui.container .revi-tab .rev-grid .rev-prof img{
+		max-width: 180px;
+		max-height: 180px;
+	}
+	/*News*/
+	.ui.container .blog-update-wrapper h1{
+		font-size: 25px;
+	}
+	/*Partners*/
+	.ui.container .ptn-wrapper  h1{
+		font-size: 25px;
+	}
+	.ui.container .ptn-wrapper .ptn-grid > div img{
+		width: 150px;
+
+	}
+
+}
